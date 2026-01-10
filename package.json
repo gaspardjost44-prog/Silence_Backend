@@ -1,8 +1,15 @@
 {
   "name": "silence-backend",
   "version": "1.0.0",
-  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
   "dependencies": {
-    "stripe": "^14.0.0"
+    "stripe": "^12.14.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
