@@ -1,6 +1,7 @@
 {
   "name": "silence-backend",
   "version": "1.0.0",
+  "type": "module",  // <-- ajoute cette ligne
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
